@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7952272117",
+    "project_id": "ride-dcc4f",
+    "storage_bucket": "ride-dcc4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7952272117:android:59382475ad217a2c2053bc",
+        "android_client_info": {
+          "package_name": "com.example.test1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFIpyuoRYU3aLmm9xRkk7dUQH-vsm0D3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
