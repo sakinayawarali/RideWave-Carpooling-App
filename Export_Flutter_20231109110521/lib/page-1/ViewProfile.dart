@@ -29,8 +29,8 @@ class _ViewProfileState extends State<ViewProfile> {
       ),
       body: FutureBuilder<DocumentSnapshot>(
         future: FirebaseFirestore.instance
-            .collection('user data') // Changed to 'user data' to match your Firestore collection
-            .doc(user.uid) // Using the current user's uid
+            .collection('user data') 
+            .doc(user.uid) 
             .get(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
